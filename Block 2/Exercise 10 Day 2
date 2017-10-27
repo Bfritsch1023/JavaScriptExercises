@@ -1,0 +1,23 @@
+Exercise 10 Day 2
+
+
+//using concat take apple and orange properties of arr1 and assign them to a new array called arr2.
+// then console.log both arr and arr2
+
+var arr = ['banana','kiwi','orange','apple','banana']
+
+//expected output arr2 = ["orange","apple"]
+
+
+var arr = ['banana','kiwi','orange','apple','banana']
+
+
+
+
+var arr = ['banana','kiwi','orange','apple','banana']
+var arr2 = []
+var arr2 = arr2.concat(arr[2],arr[3])
+console.log(arr2)
+
+
+

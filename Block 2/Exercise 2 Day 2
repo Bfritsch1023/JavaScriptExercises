@@ -1,0 +1,26 @@
+Exercise 2 Day 2
+
+
+// take all values from arr and place them in a new array called newArr but in reversed order
+var arr = ['milk','cheese','car','lime']
+
+//then console.log newArr
+// expected output newArr = ['lime','car','cheese','milk']
+
+​​var arr = ['milk','cheese','car','lime']
+
+
+
+var arr = ['milk', 'cheese', 'car', 'lime']
+var newArr = arr.reverse()
+console.log(newArr)
+
+
+or:
+
+
+var newArr= [arr[3],arr[2],arr[1],arr[0]]
+newArr
+
+
+

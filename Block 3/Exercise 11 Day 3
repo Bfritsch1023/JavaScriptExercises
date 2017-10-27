@@ -1,0 +1,9 @@
+Exercise 11 Day 3
+
+
+var arr =['john','mike','robert','peter','luke']
+
+	arr2 = []
+	arr.forEach(function(item) {
+		arr2.push(item);
+	})

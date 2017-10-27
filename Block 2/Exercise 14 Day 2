@@ -1,0 +1,26 @@
+Exercise 14 Day 2
+
+
+// Using the string methods split and join remove the "," from the below string
+var str = 'I,Really,Like,Pizza'
+//then console.log the modified string which should ideally look like:
+//expected output : I Really Like Pizza
+
+var str = 'I,Really,Like,Pizza'
+
+var newString = str.split(',')
+
+var join = newString.join(' ')
+
+console.log(join);
+
+
+
+
+//myString I_love_eating_apples
+
+//mySplitString (4) ["I", "love", "eating", "apples"]
+
+//mySplitAndStringJoinedWithNoArgument I,love,eating,apples
+
+//splitStringAndJoinedString I love eating apples

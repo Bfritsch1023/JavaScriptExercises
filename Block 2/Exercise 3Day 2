@@ -1,0 +1,20 @@
+Exercise 3Day 2 
+
+
+var arr  =  ['banana','apple','orange']  
+
+var arr2 =  ['tv','dvd-player','playstation']
+
+var three = 
+
+arr2[0]
+
+arr2[1]
+
+three= arr2[1]
+
+arr2[1]= arr[1]
+
+arr[1]=three
+
+

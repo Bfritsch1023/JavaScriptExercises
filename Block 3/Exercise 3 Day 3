@@ -1,0 +1,7 @@
+Exercise 3 Day 3
+
+while (num < 100){
+    console.log(num % 2 == 0);
+    num ++;
+
+    

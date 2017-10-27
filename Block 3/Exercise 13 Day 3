@@ -1,0 +1,5 @@
+Exercise 13 Day 3
+
+var arr = [1,2,3,4,5,65,23,6,'hello']
+var arr2 = []
+var arr3 = arr.concat(arr2);

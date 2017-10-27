@@ -1,0 +1,29 @@
+Exercise 12 Day 2
+
+ 
+//using indexof check if the following colors are in the array and if they are you should console.log true, and if they are not you should console.log false.
+
+//green, red, pink,
+
+var arr = ['green','red','black','blue','brown','yellow','purple']
+//expected output
+
+//true
+//true
+//false
+
+var arr = ['green','red','black','blue','brown','yellow','purple']
+console.log (
+arr.indexOf('green')!==-1
+
+arr.indexOf('red')!==-1
+
+arr.indexOf('pink')===1
+)
+
+
+// below if you want to find 0 or 1//
+
+//console.log('green',arr.indexOf('green'))
+//console.log('red',arr.indexOf('red'))
+//console.log('pink',arr.indexOf('pink'))

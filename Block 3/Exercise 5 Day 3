@@ -1,0 +1,5 @@
+
+var arr = ['banana',['hello'],12,true]
+
+arr.forEach(function(ele, i) {
+        console.log(typeof ele == 'string', i)

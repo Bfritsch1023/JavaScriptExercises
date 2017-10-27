@@ -1,0 +1,10 @@
+Exercise 4 Day 3
+
+
+
+var fruit = ['banana', 'orange', 'pineapple']
+
+fruit.forEach(function(item, index){
+console.log('element', item)
+console.log( 'element' ,index)
+})

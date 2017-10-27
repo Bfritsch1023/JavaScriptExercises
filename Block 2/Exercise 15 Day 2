@@ -1,0 +1,19 @@
+Exercise 15 Day 2
+
+
+//Still using split and join remove the unwanted characters from our word so that it will be just banana, then console.log word
+var word = 'ba_*!*_na_*!*_na';
+
+
+//expected output banana
+
+
+var word = 'ba_*!*_na_*!*_na'; 
+
+
+var newString = word.split('_*!*_')
+
+var join = newString.join('')
+
+console.log(join);
+
